@@ -14,10 +14,10 @@ const Header = () => {
                         </div>
                         <div className="col-lg-10">
                             <ul>
-                                <li><a href="/" >Inicio</a></li>
-                                <li><a href="/info">Nosotros</a></li>
-                                <li><a href="/portfolio" >Portafolio</a></li>
-                                <li><a href="/contact" >Contacto</a></li>
+                                <li><Link to="/">Inicio</Link></li>
+                                <li><Link to="/info">Nosotros</Link></li>
+                                <li><Link to="/portfolio">Portafolio</Link></li>
+                                <li><Link to="/contact">Contacto</Link></li>
                             </ul>
                         </div>
                     </div>

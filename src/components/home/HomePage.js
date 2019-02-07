@@ -1,15 +1,16 @@
 import React from 'react';
-import square03 from './../img/square_03.jpg';
-import square2 from './../img/square_02.jpg';
-import square10 from './../img/square_10.jpg';
-import Imagenes from './Imagenes';
+import square03 from './../../img/square_03.jpg';
+import square2 from './../../img/square_02.jpg';
+import square10 from './../../img/square_10.jpg';
+import Imagenes from './../Imagenes';
 const parrafos =  "Aenean et nisl fermentum leo hendrerit dapibus. Curabitur ultricies finibus dignissim." +
     "Pellentesque ac neque sit amet urna ullamcorper fermentum. In eu congue leo. Aenean "+
     " eget urna eget tortor commodo facilisis. Vivamus ac quam sem. In eget tincidunt quam, "+
     "eget viverra mauris. Aenean eros sem, sollicitudin ac risus a, porttitor ornare eros.";
 
-const Contenido = () => {
+const HomePage = () => {
     return (
+   
         <div>
             <div className="pad_200" id="nosotros">
                 <div className="container">
@@ -59,4 +60,4 @@ const Contenido = () => {
     );
 };
 
-export default Contenido;
+export default HomePage;
